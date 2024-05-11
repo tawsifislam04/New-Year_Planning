@@ -1,0 +1,79 @@
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header styles */
+ 
+header{
+    
+   
+}
+
+.banner{
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 216px 230px 166px 845px;
+}
+
+.banner-heading{
+    font-size: 65px;
+    font-weight: 700;
+    text-align: right;
+    color: #FFFFFF;
+    width: 525px;
+}
+
+.banner-description{
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: right;
+    width: 490px;
+    padding-left: 35px;
+}
+
+.blue-btn{
+    margin: 32px 0px 0px 370px;
+    width: 160px;
+    padding: 14px;
+    font-size: 20px;
+    font-weight: 600 ;
+    color: #005FAC;
+}
+
+/* main styles */
+
+.my-previous-failure{
+    display: flex;
+    margin: 136px 251px 124px 277px;
+    justify-content: space-between;
+    gap: 87px;
+}
+
+.image{
+    width: 724px;
+}
+
+.div-text{
+    margin-top: 221px;
+}
+
+.div-heading{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.div-description{
+    font-weight:400 ;
+    color: #444343;
+}
+
+.div-text ul li::before{
+    content:"\2713\0020";
+    
+}
+
+.div-text ul {
+    list-style: none
+}
