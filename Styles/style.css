@@ -71,9 +71,33 @@ header{
 
 .div-text ul li::before{
     content:"\2713\0020";
-    
 }
 
 .div-text ul {
     list-style: none
+}
+
+.my-plans{
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+}
+
+.plan-heading{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.work-plan-heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.work-plan-description{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+    
 }
