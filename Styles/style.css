@@ -40,6 +40,7 @@ header{
     font-size: 20px;
     font-weight: 600 ;
     color: #005FAC;
+    border-radius: 5px;
 }
 
 /* main styles */
@@ -90,6 +91,10 @@ header{
     margin-bottom: 50px;
 }
 
+.work-plan{
+  
+}
+
 .work-plan-heading{
     font-size: 30px;
     font-weight: 700;
@@ -100,4 +105,96 @@ header{
     font-weight: 500;
     color: #737272;
     
+}
+
+.icon-div{
+    
+
+}
+
+.icons{
+    padding-left: 0px;
+}
+
+.gradient-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.gradient{
+    background: url('../images/gradient1.png'),url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    border-radius: 8px;
+}
+
+.gradient-text{
+    padding: 60px 617px 60px 65px;
+}
+
+.call-btn{
+    color: #005FAC ;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 21px 36px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-div-heading{
+    color: #FFFFFF;
+    font-size:45px ;
+    font-weight: 700;
+}
+
+.footer-div-description{
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.subscribe{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight:600;
+}
+
+.subscribe-btn{
+    background-color: #005FAC;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 36px;
+    margin-top: 16px;
+    border-radius: 8px;
+}
+
+.footer-div{
+    max-width: 485px;
+    padding: 130px 0px;
+   
+}
+
+#email{
+    max-width: 385px;
+    color: #F3F3F3;
+    background-color: black;
+    padding: 21px 158px 22px 21px;
+    border-radius: 8px;
+}
+
+.footer-icons{
+    margin-right: 17px;
+    margin-top: 32px;
 }
