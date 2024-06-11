@@ -1,20 +1,19 @@
 
 body {
   font-family: "Work Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* header styles */
- 
-header{
-    
-   
-}
 
 .banner{
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 216px 230px 166px 845px;
+    background-size: cover;
+    max-width: 1600px;
+    margin: 0px auto;
+    
 }
 
 .banner-heading{
@@ -22,34 +21,41 @@ header{
     font-weight: 700;
     text-align: right;
     color: #FFFFFF;
-    width: 525px;
+    max-width: 525px;
+    padding: 216px 100px 0px 863px;
 }
 
 .banner-description{
     color: #FFFFFF;
     font-weight: 400;
     text-align: right;
-    width: 490px;
-    padding-left: 35px;
+    max-width: 490px; 
+    padding: 0px 100px 32px 883px;
 }
 
 .blue-btn{
-    margin: 32px 0px 0px 370px;
-    width: 160px;
-    padding: 14px;
+    max-width: 160px;
+    padding: 20px;
     font-size: 20px;
     font-weight: 600 ;
     color: #005FAC;
     border-radius: 5px;
+    border: 0;
 }
+
+.btn-div{
+    padding: 0px 100px 116px 1200px;
+}
+
 
 /* main styles */
 
 .my-previous-failure{
     display: flex;
-    margin: 136px 251px 124px 277px;
     justify-content: space-between;
     gap: 87px;
+    max-width: 1072px;
+    margin: 130px auto;
 }
 
 .image{
@@ -91,10 +97,6 @@ header{
     margin-bottom: 50px;
 }
 
-.work-plan{
-  
-}
-
 .work-plan-heading{
     font-size: 30px;
     font-weight: 700;
@@ -105,11 +107,6 @@ header{
     font-weight: 500;
     color: #737272;
     
-}
-
-.icon-div{
-    
-
 }
 
 .icons{
@@ -127,11 +124,9 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    margin-left: 230px;
-    margin-right: 230px;
-    margin-top: 130px;
-    margin-bottom: 130px;
+    margin: 130px auto;
     border-radius: 8px;
+    max-width: 1140px;
 }
 
 .gradient-text{
@@ -151,6 +146,8 @@ footer{
     background-color: black;
     display: flex;
     justify-content: space-around;
+    max-width: 1600px;
+    margin:0 auto ;
 }
 
 .footer-div-heading{
