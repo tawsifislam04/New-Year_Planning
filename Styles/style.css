@@ -255,4 +255,18 @@ footer{
     .div-text{
         margin: 20px;
     }
+    .banner{
+        position: static;
+        background-position: right;
+        padding: 20px;
+        height: 500px;
+    }
+    .banner-heading , .banner-description ,.btn-div{
+        position: static;
+        transform: none;
+        text-align: start;
+        margin-bottom: 30px;
+    }
+
+    
 }
