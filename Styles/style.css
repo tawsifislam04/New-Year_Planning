@@ -11,9 +11,12 @@ body {
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     max-width: 1600px;
+    height: 808px;
     margin: 0px auto;
-    
+    border: 2px solid white;
+    position: relative;
 }
 
 .banner-heading{
@@ -21,20 +24,23 @@ body {
     font-weight: 700;
     text-align: right;
     color: #FFFFFF;
-    max-width: 525px;
-    padding: 216px 100px 0px 863px;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-30% , -70%);
 }
 
 .banner-description{
     color: #FFFFFF;
     font-weight: 400;
     text-align: right;
-    max-width: 490px; 
-    padding: 0px 100px 32px 883px;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-30% , -40%);
 }
 
 .blue-btn{
-    max-width: 160px;
     padding: 20px;
     font-size: 20px;
     font-weight: 600 ;
@@ -44,7 +50,10 @@ body {
 }
 
 .btn-div{
-    padding: 0px 100px 116px 1200px;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-20% , -20%);
 }
 
 
@@ -95,6 +104,10 @@ body {
     text-align: center;
     font-weight: 700;
     margin-bottom: 50px;
+}
+
+.work-plan{
+
 }
 
 .work-plan-heading{
@@ -191,7 +204,55 @@ footer{
     border-radius: 8px;
 }
 
+#email:hover{
+    border: 2px solid white;
+}
+
 .footer-icons{
     margin-right: 17px;
     margin-top: 32px;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .my-plans{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+    .gradient{
+        background-size: cover;
+
+    }
+    .gradient-text{
+        padding: 20px 5px 20px 20px;
+    }
+    footer{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-div{
+        padding: 25px;
+    }
+    #email{
+        width: 30%;
+        padding: 21px 150px 21px 21px;
+    }
+    .my-previous-failure{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .image{
+        width: 100%;
+    }
+    .image img{
+        width: 100%;
+    }
+    .div-text{
+        margin: 20px;
+    }
 }
