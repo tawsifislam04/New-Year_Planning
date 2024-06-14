@@ -259,7 +259,6 @@ footer{
         position: static;
         background-position: right;
         padding: 20px;
-        height: 500px;
     }
     .banner-heading , .banner-description ,.btn-div{
         position: static;
@@ -269,4 +268,52 @@ footer{
     }
 
     
+}
+
+
+@media screen and (min-width: 576px) and (max-width:992px){
+    .banner-heading{
+        left: 50%;
+        transform: translate(-20% , -80%);
+    }
+    .banner-description{
+        top: 50%;
+        left: 60%;
+        transform: translate(-27% , -20%);
+    }
+    .btn-div{
+        top: 70%;
+        left: 80%;
+        transform: translate(-50% , -10%);
+    }
+    .my-previous-failure{
+        flex-direction: column;
+        align-items: center;
+    }
+    .image{
+        width: 100%;
+        text-align: center;
+    }
+    .div-text{
+        margin: 30px;
+    }
+    .my-plans{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .work-plan{
+        text-align: center;
+    }
+    .gradient{
+        background-size: cover;
+    }
+    .gradient-text{
+        padding: 60px 317px 60px 65px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .footer-div{
+        padding: 50px;
+    }
 }
